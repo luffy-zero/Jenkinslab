@@ -3,7 +3,7 @@ agent any
 stages{
 stage('compile'){
 steps{
-sh'grace helloworld.java'
+sh java('helloworld.java'
 }}
 stage('run'){
 steps{
